@@ -1,1 +1,1 @@
-Disponibilizados os arquivos via Jupyter Notebook
+Disponibilizados os arquivos via Jupyter Notebook e Google Colab
