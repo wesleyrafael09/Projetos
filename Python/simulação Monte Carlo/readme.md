@@ -4,3 +4,5 @@ Modelo de simulação Monte Carlo para avaliar quanto tempo uma pessoa levaria p
 considerando renda, despesas fixas, variáveis e imprevistos.
 
 Link acima direciona ao google colab
+versão V1 
+construção do modelo V2 utlizando monte carlo + bootstrapping  em andameento
