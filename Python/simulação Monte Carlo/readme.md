@@ -5,4 +5,4 @@ considerando renda, despesas fixas, variáveis e imprevistos.
 
 Link acima direciona ao google colab
 versão V1 
-construção do modelo V2 utlizando monte carlo + bootstrapping  em andameento
+construção do modelo V2 utlizando monte carlo + bootstrapping  em andamento
