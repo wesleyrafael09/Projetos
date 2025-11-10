@@ -1,2 +1,2 @@
 # Projetos
-Projetos Pessoais, elaborados para conhecimento e domínio das ferramentas 
+Projetos Pessoais e atividades da facultade, elaborados para conhecimento e domínio de ferramentas 
