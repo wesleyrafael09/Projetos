@@ -12,7 +12,7 @@ lapply(required_pkgs, library, character.only = TRUE)
 # ===============================================
 # Definir diretórios fixos
 # ===============================================
-base_dir <- "C:/Users/Wesley/Documents/ModelosR"
+base_dir <- "C:...."
 data_dir <- file.path(base_dir, "data")
 results_dir <- file.path(base_dir, "results")
 models_dir <- file.path(base_dir, "models")
@@ -21,13 +21,13 @@ models_dir <- file.path(base_dir, "models")
 dir.create(results_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(models_dir, recursive = TRUE, showWarnings = FALSE)
 
-cat("📁 Diretórios configurados com sucesso.\n")
+cat(" Diretórios configurados com sucesso.\n")
 
 # ===============================================
 # Carregar os dados preparados
 # ===============================================
 ames_small <- readRDS(file.path(data_dir, "ames_small.rds"))
-cat("✅ Dados carregados com", nrow(ames_small), "linhas e", ncol(ames_small), "colunas.\n")
+cat(" Dados carregados com", nrow(ames_small), "linhas e", ncol(ames_small), "colunas.\n")
 
 # ===============================================
 # Divisão treino/teste
@@ -92,8 +92,9 @@ saveRDS(lm_fit, file = file.path(models_dir, "lm_model.rds"))
 saveRDS(rf_fit, file = file.path(models_dir, "rf_model.rds"))
 saveRDS(preproc, file = file.path(models_dir, "preproc.rds"))
 
-cat("\n✅ Modelos e resultados salvos com sucesso em:\n")
+cat("\n Modelos e resultados salvos com sucesso em:\n")
 cat(" -", file.path(results_dir, "model_results.csv"), "\n")
 cat(" -", file.path(models_dir, "lm_model.rds"), "\n")
 cat(" -", file.path(models_dir, "rf_model.rds"), "\n")
 cat(" -", file.path(models_dir, "preproc.rds"), "\n")
+
