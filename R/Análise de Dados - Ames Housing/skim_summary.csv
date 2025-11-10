@@ -1,0 +1,82 @@
+"skim_type","skim_variable","n_missing","complete_rate","factor.ordered","factor.n_unique","factor.top_counts","numeric.mean","numeric.sd","numeric.p0","numeric.p25","numeric.p50","numeric.p75","numeric.p100","numeric.hist"
+"factor","MS_SubClass",0,1,FALSE,16,"One: 1079, Two: 575, One: 287, One: 192",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","MS_Zoning",0,1,FALSE,7,"Res: 2273, Res: 462, Flo: 139, Res: 27",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Street",0,1,FALSE,2,"Pav: 2918, Grv: 12",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Alley",0,1,FALSE,3,"No_: 2732, Gra: 120, Pav: 78",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Lot_Shape",0,1,FALSE,4,"Reg: 1859, Sli: 979, Mod: 76, Irr: 16",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Land_Contour",0,1,FALSE,4,"Lvl: 2633, HLS: 120, Bnk: 117, Low: 60",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Utilities",0,1,FALSE,3,"All: 2927, NoS: 2, NoS: 1",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Lot_Config",0,1,FALSE,5,"Ins: 2140, Cor: 511, Cul: 180, FR2: 85",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Land_Slope",0,1,FALSE,3,"Gtl: 2789, Mod: 125, Sev: 16",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Neighborhood",0,1,FALSE,28,"Nor: 443, Col: 267, Old: 239, Edw: 194",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Condition_1",0,1,FALSE,9,"Nor: 2522, Fee: 164, Art: 92, RRA: 50",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Condition_2",0,1,FALSE,8,"Nor: 2900, Fee: 13, Art: 5, Pos: 4",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Bldg_Type",0,1,FALSE,5,"One: 2425, Twn: 233, Dup: 109, Twn: 101",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","House_Style",0,1,FALSE,8,"One: 1481, Two: 873, One: 314, SLv: 128",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Overall_Qual",0,1,FALSE,10,"Ave: 825, Abo: 732, Goo: 602, Ver: 350",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Overall_Cond",0,1,FALSE,9,"Ave: 1654, Abo: 533, Goo: 390, Ver: 144",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Roof_Style",0,1,FALSE,6,"Gab: 2321, Hip: 551, Gam: 22, Fla: 20",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Roof_Matl",0,1,FALSE,8,"Com: 2887, Tar: 23, WdS: 9, WdS: 7",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Exterior_1st",0,1,FALSE,16,"Vin: 1026, Met: 450, HdB: 442, Wd : 420",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Exterior_2nd",0,1,FALSE,17,"Vin: 1015, Met: 447, HdB: 406, Wd : 397",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Mas_Vnr_Type",0,1,FALSE,5,"Non: 1775, Brk: 880, Sto: 249, Brk: 25",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Exter_Qual",0,1,FALSE,4,"Typ: 1799, Goo: 989, Exc: 107, Fai: 35",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Exter_Cond",0,1,FALSE,5,"Typ: 2549, Goo: 299, Fai: 67, Exc: 12",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Foundation",0,1,FALSE,6,"PCo: 1310, CBl: 1244, Brk: 311, Sla: 49",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Bsmt_Qual",0,1,FALSE,6,"Typ: 1283, Goo: 1219, Exc: 258, Fai: 88",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Bsmt_Cond",0,1,FALSE,6,"Typ: 2616, Goo: 122, Fai: 104, No_: 80",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Bsmt_Exposure",0,1,FALSE,5,"No: 1906, Av: 418, Gd: 284, Mn: 239",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","BsmtFin_Type_1",0,1,FALSE,7,"GLQ: 859, Unf: 851, ALQ: 429, Rec: 288",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","BsmtFin_Type_2",0,1,FALSE,7,"Unf: 2499, Rec: 106, LwQ: 89, No_: 81",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Heating",0,1,FALSE,6,"Gas: 2885, Gas: 27, Gra: 9, Wal: 6",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Heating_QC",0,1,FALSE,5,"Exc: 1495, Typ: 864, Goo: 476, Fai: 92",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Central_Air",0,1,FALSE,2,"Y: 2734, N: 196",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Electrical",0,1,FALSE,6,"SBr: 2682, Fus: 188, Fus: 50, Fus: 8",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Kitchen_Qual",0,1,FALSE,5,"Typ: 1494, Goo: 1160, Exc: 205, Fai: 70",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Functional",0,1,FALSE,8,"Typ: 2728, Min: 70, Min: 65, Mod: 35",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Fireplace_Qu",0,1,FALSE,6,"No_: 1422, Goo: 744, Typ: 600, Fai: 75",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Garage_Type",0,1,FALSE,7,"Att: 1731, Det: 782, Bui: 186, No_: 157",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Garage_Finish",0,1,FALSE,4,"Unf: 1231, RFn: 812, Fin: 728, No_: 159",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Garage_Qual",0,1,FALSE,6,"Typ: 2615, No_: 159, Fai: 124, Goo: 24",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Garage_Cond",0,1,FALSE,6,"Typ: 2665, No_: 159, Fai: 74, Goo: 15",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Paved_Drive",0,1,FALSE,3,"Pav: 2652, Dir: 216, Par: 62",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Pool_QC",0,1,FALSE,5,"No_: 2917, Exc: 4, Goo: 4, Typ: 3",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Fence",0,1,FALSE,5,"No_: 2358, Min: 330, Goo: 118, Goo: 112",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Misc_Feature",0,1,FALSE,6,"Non: 2824, She: 95, Gar: 5, Oth: 4",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Sale_Type",0,1,FALSE,10,"WD : 2536, New: 239, COD: 87, Con: 26",NA,NA,NA,NA,NA,NA,NA,NA
+"factor","Sale_Condition",0,1,FALSE,6,"Nor: 2413, Par: 245, Abn: 190, Fam: 46",NA,NA,NA,NA,NA,NA,NA,NA
+"numeric","Lot_Frontage",0,1,NA,NA,NA,57.6477815699659,33.4994407936297,0,43,63,78,313,"▇▇▁▁▁"
+"numeric","Lot_Area",0,1,NA,NA,NA,10147.9218430034,7880.01775943909,1300,7440.25,9436.5,11555.25,215245,"▇▁▁▁▁"
+"numeric","Year_Built",0,1,NA,NA,NA,1971.35631399317,30.2453606293747,1872,1954,1973,2001,2010,"▁▂▃▆▇"
+"numeric","Year_Remod_Add",0,1,NA,NA,NA,1984.26655290102,20.8602858768493,1950,1965,1993,2004,2010,"▅▂▂▃▇"
+"numeric","Mas_Vnr_Area",0,1,NA,NA,NA,101.096928327645,178.634544825758,0,0,0,162.75,1600,"▇▁▁▁▁"
+"numeric","BsmtFin_SF_1",0,1,NA,NA,NA,4.17747440273038,2.23337248339064,0,3,3,7,7,"▃▂▇▁▇"
+"numeric","BsmtFin_SF_2",0,1,NA,NA,NA,49.7054607508532,169.142089286665,0,0,0,0,1526,"▇▁▁▁▁"
+"numeric","Bsmt_Unf_SF",0,1,NA,NA,NA,559.071672354949,439.540571056778,0,219,465.5,801.75,2336,"▇▅▂▁▁"
+"numeric","Total_Bsmt_SF",0,1,NA,NA,NA,1051.25563139932,440.968017663732,0,793,990,1301.5,6110,"▇▃▁▁▁"
+"numeric","First_Flr_SF",0,1,NA,NA,NA,1159.55767918089,391.890885253492,334,876.25,1084,1384,5095,"▇▃▁▁▁"
+"numeric","Second_Flr_SF",0,1,NA,NA,NA,335.455972696246,428.395715008826,0,0,0,703.75,2065,"▇▃▂▁▁"
+"numeric","Low_Qual_Fin_SF",0,1,NA,NA,NA,4.67679180887372,46.3105100344704,0,0,0,0,1064,"▇▁▁▁▁"
+"numeric","Gr_Liv_Area",0,1,NA,NA,NA,1499.69044368601,505.508887472041,334,1126,1442,1742.75,5642,"▇▇▁▁▁"
+"numeric","Bsmt_Full_Bath",0,1,NA,NA,NA,0.431058020477816,0.524761963021569,0,0,0,1,3,"▇▆▁▁▁"
+"numeric","Bsmt_Half_Bath",0,1,NA,NA,NA,0.0610921501706485,0.245175019961096,0,0,0,0,2,"▇▁▁▁▁"
+"numeric","Full_Bath",0,1,NA,NA,NA,1.56655290102389,0.552940611645541,0,1,2,2,4,"▁▇▇▁▁"
+"numeric","Half_Bath",0,1,NA,NA,NA,0.379522184300341,0.502629253315165,0,0,0,1,2,"▇▁▅▁▁"
+"numeric","Bedroom_AbvGr",0,1,NA,NA,NA,2.8542662116041,0.827731141985373,0,2,3,3,8,"▁▇▂▁▁"
+"numeric","Kitchen_AbvGr",0,1,NA,NA,NA,1.04436860068259,0.214076244391709,0,1,1,1,3,"▁▇▁▁▁"
+"numeric","TotRms_AbvGrd",0,1,NA,NA,NA,6.44300341296928,1.57296439633446,2,5,6,7,15,"▁▇▂▁▁"
+"numeric","Fireplaces",0,1,NA,NA,NA,0.599317406143345,0.647920916551218,0,0,1,1,4,"▇▇▁▁▁"
+"numeric","Garage_Cars",0,1,NA,NA,NA,1.76621160409556,0.761136719051791,0,1,2,2,5,"▅▇▂▁▁"
+"numeric","Garage_Area",0,1,NA,NA,NA,472.658361774744,215.187195710444,0,320,480,576,1488,"▃▇▃▁▁"
+"numeric","Wood_Deck_SF",0,1,NA,NA,NA,93.7518771331058,126.361561878906,0,0,0,168,1424,"▇▁▁▁▁"
+"numeric","Open_Porch_SF",0,1,NA,NA,NA,47.5334470989761,67.4834001367737,0,0,27,70,742,"▇▁▁▁▁"
+"numeric","Enclosed_Porch",0,1,NA,NA,NA,23.0116040955631,64.1390592086413,0,0,0,0,1012,"▇▁▁▁▁"
+"numeric","Three_season_porch",0,1,NA,NA,NA,2.59249146757679,25.1413310318694,0,0,0,0,508,"▇▁▁▁▁"
+"numeric","Screen_Porch",0,1,NA,NA,NA,16.00204778157,56.0873702294325,0,0,0,0,576,"▇▁▁▁▁"
+"numeric","Pool_Area",0,1,NA,NA,NA,2.24334470989761,35.5971806150977,0,0,0,0,800,"▇▁▁▁▁"
+"numeric","Misc_Val",0,1,NA,NA,NA,50.6351535836178,566.344288259089,0,0,0,0,17000,"▇▁▁▁▁"
+"numeric","Mo_Sold",0,1,NA,NA,NA,6.2160409556314,2.71449242543017,1,4,6,8,12,"▅▆▇▃▃"
+"numeric","Year_Sold",0,1,NA,NA,NA,2007.79044368601,1.31661292261053,2006,2007,2008,2009,2010,"▇▇▇▇▃"
+"numeric","Sale_Price",0,1,NA,NA,NA,180796.060068259,79886.692356665,12789,129500,160000,213500,755000,"▇▇▁▁▁"
+"numeric","Longitude",0,1,NA,NA,NA,-93.6428968985665,0.0256995708419148,-93.693153,-93.6602174,-93.641806,-93.62211325,-93.577427,"▅▅▇▆▁"
+"numeric","Latitude",0,1,NA,NA,NA,42.034482233959,0.0184100719647591,41.986498,42.02208825,42.0346625,42.049853,42.063388,"▂▂▇▇▇"
