@@ -29,7 +29,7 @@ cat(" ataset carregado:", nrow(raw), "linhas e", ncol(raw), "colunas.\n")
 # Geração de resumo e exportação
 skim <- skimr::skim(raw)
 write.csv(as.data.frame(skim), file = file.path(results_dir, "skim_summary.csv"), row.names = FALSE)
-cat("📄 Resumo estatístico salvo em", file.path(results_dir, "skim_summary.csv"), "\n")
+cat(" Resumo estatístico salvo em", file.path(results_dir, "skim_summary.csv"), "\n")
 
 # Seleção de variáveis principais
 vars_keep <- c(
@@ -62,10 +62,10 @@ desc <- ames_small %>%
     sd_price = sd(sale_price)
   )
 write.csv(desc, file = file.path(results_dir, "desc_stats.csv"), row.names = FALSE)
-cat("📈 Estatísticas básicas salvas em", file.path(results_dir, "desc_stats.csv"), "\n")
+cat(" Estatísticas básicas salvas em", file.path(results_dir, "desc_stats.csv"), "\n")
 
 #  Gráficos interativos + salvos em PNG
-cat("🖼️ Gerando gráficos...\n")
+cat(" Gerando gráficos...\n")
 
 # Histograma
 g1 <- ggplot(ames_small, aes(x = sale_price)) +
@@ -92,7 +92,7 @@ saveRDS(ames_small, file = file.path(data_dir, "ames_small.rds"))
 cat("Dados preparados e salvos em", file.path(data_dir, "ames_small.rds"), "\n")
 
 # Visualização interativa do dataset
-cat("👀 Abrindo dataset limpo para visualização...\n")
+cat(" Abrindo dataset limpo para visualização...\n")
 View(ames_small)
 
 cat("\n script finalizado com sucesso!\n")
@@ -102,3 +102,4 @@ cat(" -", file.path(results_dir, "desc_stats.csv"), "\n")
 cat(" -", file.path(results_dir, "price_hist.png"), "\n")
 cat(" -", file.path(results_dir, "price_vs_area.png"), "\n")
 cat(" -", file.path(data_dir, "ames_small.rds"), "\n")
+
