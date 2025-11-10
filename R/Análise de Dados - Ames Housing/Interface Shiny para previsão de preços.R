@@ -23,13 +23,13 @@ lm_fit <- readRDS(file.path(models_dir, "lm_model.rds"))
 rf_fit <- readRDS(file.path(models_dir, "rf_model.rds"))
 preproc <- readRDS(file.path(models_dir, "preproc.rds"))
 
-cat("✅ Dados e modelos carregados com sucesso.\n")
+cat(" Dados e modelos carregados com sucesso.\n")
 
 # ===============================================
 # Interface do aplicativo (UI)
 # ===============================================
 ui <- fluidPage(
-  titlePanel("🏠 Previsão de Preços - Ames Housing"),
+  titlePanel(" Previsão de Preços - Ames Housing"),
   
   sidebarLayout(
     sidebarPanel(
@@ -46,9 +46,9 @@ ui <- fluidPage(
     
     mainPanel(
       tabsetPanel(
-        tabPanel("📈 Gráficos", plotOutput("price_vs_area")),
-        tabPanel("🔮 Previsão", verbatimTextOutput("prediction")),
-        tabPanel("🧾 Dados (amostra)", DT::dataTableOutput("table"))
+        tabPanel(" Gráficos", plotOutput("price_vs_area")),
+        tabPanel(" Previsão", verbatimTextOutput("prediction")),
+        tabPanel(" Dados (amostra)", DT::dataTableOutput("table"))
       )
     )
   )
@@ -97,9 +97,9 @@ server <- function(input, output, session) {
     
     # Mostrar resultado
     output$prediction <- renderPrint({
-      cat("📊 Previsões para os valores inseridos:\n\n")
-      cat("➡️ Linear Regression:\t$", round(pred_lm, 2), "\n")
-      cat("➡️ Random Forest:\t$", round(pred_rf, 2), "\n")
+      cat(" Previsões para os valores inseridos:\n\n")
+      cat(" Linear Regression:\t$", round(pred_lm, 2), "\n")
+      cat(" Random Forest:\t$", round(pred_rf, 2), "\n")
     })
   })
 }
@@ -108,3 +108,4 @@ server <- function(input, output, session) {
 # Executar o app
 # ===============================================
 shinyApp(ui, server)
+
