@@ -13,3 +13,4 @@ Este projeto realiza uma **análise exploratória de dados (EDA)** no famoso dat
    - Dispersão entre área e preço (`price_vs_area.png`)
 6. Salva o dataset limpo (`data/ames_small.rds`) e resumos em `results/`.
 
+<img width="1278" height="964" alt="Screenshot_4" src="https://github.com/user-attachments/assets/89934934-71c3-4573-a24a-a77c1a6fc5be" />
