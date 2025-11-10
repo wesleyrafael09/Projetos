@@ -11,7 +11,7 @@ lapply(required_pkgs, library, character.only = TRUE)
 # ===============================================
 # Diretórios fixos
 # ===============================================
-base_dir <- "C:/Users/Wesley/Documents/ModelosR"
+base_dir <- "C:......."
 data_dir <- file.path(base_dir, "data")
 models_dir <- file.path(base_dir, "models")
 
@@ -108,4 +108,5 @@ server <- function(input, output, session) {
 # Executar o app
 # ===============================================
 shinyApp(ui, server)
+
 
