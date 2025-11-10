@@ -1,4 +1,4 @@
-# Ames Housing - Análise Exploratória em R
+Este projeto cria uma aplicação interativa em R Shiny para explorar e prever preços de casas com base no conjunto de dados Ames Housing (versão reduzida: ames_small.rds).
 
 Este projeto realiza uma **análise exploratória de dados (EDA)** no famoso dataset **Ames Housing**, amplamente usado em estudos de regressão e ciência de dados.
 
